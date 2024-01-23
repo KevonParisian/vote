@@ -1,5 +1,5 @@
 #!/bin/bash
-# First check that Leo is installed.
+#!First check that Leo is installed.
 if ! command -v leo &> /dev/null
 then
     echo "leo is not installed."
@@ -60,3 +60,4 @@ echo "
   leo run agree || exit
   # leo run disagree || exit
 )
+ 
